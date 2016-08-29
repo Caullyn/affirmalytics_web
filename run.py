@@ -32,7 +32,7 @@ def about():
 
 @app.route("/contact")
 def contact():
-    return render_template('template.html', my_string="FooBar"
+    return render_template('contact.html', my_string="FooBar"
         , my_list=[24,25,26,27,28,29], title="Contact Us", current_time=datetime.datetime.now())
 
 
