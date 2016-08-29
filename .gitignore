@@ -2,7 +2,7 @@
 *.pot
 *.py[co]
 .tox/
-.venv/
+venv/
 __pycache__
 MANIFEST
 dist/
